@@ -1,0 +1,486 @@
+Mesa
+Copyright (C) 1999-2007  Brian Paul   All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+bin/install_megadrivers.py
+based on https://github.com/Grima04/mesa-turnip-kgsl/commit/7a82edc
+
+# Copyright 2017-2018 Intel Corporation
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+
+src/egl/main/egldisplay.h
+based on https://github.com/Grima04/mesa-turnip-kgsl/commit/f5a92ad
+the upstream is likely to do something like this soon...
+
+/**************************************************************************
+ *
+ * Copyright 2008 VMware, Inc.
+ * Copyright 2009-2010 Chia-I Wu <olvaffe@gmail.com>
+ * Copyright 2010-2011 LunarG, Inc.
+ * All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sub license, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the
+ * next paragraph) shall be included in all copies or substantial portions
+ * of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ **************************************************************************/
+
+
+src/gallium/drivers/zink/meson.build
+# Copyright © 2018 Collabora Ltd
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+
+src/gallium/drivers/zink/zink_kopper.c
+/*
+ * Copyright 2020 Red Hat, Inc.
+ * Copyright © 2021 Valve Corporation
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+ 
+src/gallium/drivers/zink/zink_resource.c src/gallium/drivers/zink/zink_screen.c src/gallium/drivers/zink/zink_resource.h src/gallium/drivers/zink/zink_screen.h
+ /*
+ * Copyright 2018 Collabora Ltd.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * on the rights to use, copy, modify, merge, publish, distribute, sub
+ * license, and/or sell copies of the Software, and to permit persons to whom
+ * the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHOR(S) AND/OR THEIR SUPPLIERS BE LIABLE FOR ANY CLAIM,
+ * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+ * USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+ 
+ src/gallium/drivers/zink/zink_types.h
+ /*
+ * Copyright © 2022 Valve Corporation
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
+ * 
+ * Authors:
+ *    Mike Blumenkrantz <michael.blumenkrantz@gmail.com>
+ */
+ 
+src/gallium/targets/dri/meson.build 
+# Copyright © 2017 Dylan Baker
+# Copyright © 2018 Intel Corporation
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+---------- 
+diff --git a/bin/install_megadrivers.py b/bin/install_megadrivers.py
+index 60ee4576c60..d91ace68b03 100644
+--- a/bin/install_megadrivers.py
++++ b/bin/install_megadrivers.py
+@@ -23,7 +23,13 @@
+ """Script to install megadriver symlinks for meson."""
+ 
+ import argparse
+-import os
++import os, shutil
++def link(src, dest):
++    shutil.copyfile(src, dest)
++def unlink(src):
++    os.remove(src)
++os.link = link
++os.unlink = unlink
+ 
+ 
+ def main():
+diff --git a/src/egl/main/egldisplay.h b/src/egl/main/egldisplay.h
+index 205466955f3..dbbdb265019 100644
+--- a/src/egl/main/egldisplay.h
++++ b/src/egl/main/egldisplay.h
+@@ -38,6 +38,7 @@
+ #include "egldefines.h"
+ #include "eglarray.h"
+ 
++#include "X11/Xlib.h"
+ 
+ #ifdef __cplusplus
+ extern "C" {
+diff --git a/src/gallium/drivers/zink/meson.build b/src/gallium/drivers/zink/meson.build
+index dd2cd66c138..913514b9c16 100644
+--- a/src/gallium/drivers/zink/meson.build
++++ b/src/gallium/drivers/zink/meson.build
+@@ -28,7 +28,7 @@ files_libzink = files(
+   'zink_clear.c',
+   'zink_compiler.c',
+   'zink_context.c',
+-  'zink_kopper.c',
++  'zink_nopper.c',
+   'zink_descriptors.c',
+   'zink_draw.cpp',
+   'zink_fence.c',
+diff --git a/src/gallium/drivers/zink/zink_nopper.c b/src/gallium/drivers/zink/zink_nopper.c
+new file mode 100644
+index 00000000000..41054c4c71c
+--- /dev/null
++++ b/src/gallium/drivers/zink/zink_nopper.c
+@@ -0,0 +1,89 @@
++#include "zink_context.h"
++#include "zink_screen.h"
++#include "zink_resource.h"
++#include "zink_kopper.h"
++#include "vk_enum_to_str.h"
++#ifdef __clang__
++#pragma clang diagnostic ignored "-Wmissing-prototypes"
++#endif
++
++VkSemaphore
++zink_kopper_acquire_submit(struct zink_screen *screen, struct zink_resource *res)
++{
++   return 0;
++}
++VkSemaphore
++zink_kopper_present(struct zink_screen *screen, struct zink_resource *res)
++{
++  return 0;
++}
++bool
++zink_kopper_acquire_readback(struct zink_context *ctx, struct zink_resource *res)
++{
++   return false;
++}
++bool
++zink_kopper_present_readback(struct zink_context *ctx, struct zink_resource *res)
++{
++   return false;
++}
++bool
++zink_kopper_acquire(struct zink_context *ctx, struct zink_resource *res, uint64_t timeout)
++{
++   return false;
++}
++void
++zink_kopper_displaytarget_destroy(struct zink_screen *screen, struct kopper_displaytarget *cdt)
++{
++  return;
++}
++void
++zink_kopper_deinit_displaytarget(struct zink_screen *screen, struct kopper_displaytarget *cdt)
++{
++  return;
++}
++void
++zink_kopper_fixup_depth_buffer(struct zink_context *ctx)
++{
++  return;
++}
++bool
++zink_kopper_check(struct pipe_resource *pres)
++{
++  return false;
++}
++bool
++zink_kopper_is_cpu(const struct pipe_screen *pscreen)
++{
++  return false;
++}
++void
++zink_kopper_set_swap_interval(struct pipe_screen *pscreen, struct pipe_resource *pres, int interval)
++{
++  return;
++}
++bool
++zink_kopper_update(struct pipe_screen *pscreen, struct pipe_resource *pres, int *w, int *h)
++{
++  return false;
++}
++int
++zink_kopper_query_buffer_age(struct pipe_context *pctx, struct pipe_resource *pres)
++{
++  return 0;
++}
++void
++zink_kopper_present_queue(struct zink_screen *screen, struct zink_resource *res)
++{
++  return;
++}
++struct kopper_displaytarget *
++zink_kopper_displaytarget_create(struct zink_screen *screen, unsigned tex_usage,
++                                 enum pipe_format format, unsigned width,
++                                 unsigned height, unsigned alignment,
++                                 const void *loader_private, unsigned *stride)
++{
++   struct kopper_displaytarget *cdt = NULL;
++   cdt->loader_private = NULL;
++   return NULL;
++}
+diff --git a/src/gallium/drivers/zink/zink_resource.c b/src/gallium/drivers/zink/zink_resource.c
+index 99504249c43..877ad558bcd 100644
+--- a/src/gallium/drivers/zink/zink_resource.c
++++ b/src/gallium/drivers/zink/zink_resource.c
+@@ -47,6 +47,7 @@
+ #include "util/os_file.h"
+ #include "frontend/winsys_handle.h"
+ 
++#include "frontend/sw_winsys.h"
+ #if !defined(__APPLE__)
+ #define ZINK_USE_DMABUF
+ #endif
+@@ -1188,6 +1189,17 @@ resource_create(struct pipe_screen *pscreen,
+       res->aspect = aspect_from_format(templ->format);
+    }
+ 
++   if (screen->winsys && (templ->bind & PIPE_BIND_DISPLAY_TARGET)) {
++      struct sw_winsys *winsys = screen->winsys;
++      res->dt = winsys->displaytarget_create(screen->winsys,
++                                             res->base.b.bind,
++                                             res->base.b.format,
++                                             templ->width0,
++                                             templ->height0,
++                                             64, NULL,
++                                             &res->dt_stride);
++   }
++
+    if (loader_private) {
+       if (templ->bind & PIPE_BIND_DISPLAY_TARGET) {
+          /* backbuffer */
+diff --git a/src/gallium/drivers/zink/zink_screen.c b/src/gallium/drivers/zink/zink_screen.c
+index d5931389ae4..36e24455bc7 100644
+--- a/src/gallium/drivers/zink/zink_screen.c
++++ b/src/gallium/drivers/zink/zink_screen.c
+@@ -48,6 +48,7 @@
+ #include "util/xmlconfig.h"
+ 
+ #include "util/u_cpu_detect.h"
++#include "frontend/sw_winsys.h"
+ 
+ #if DETECT_OS_WINDOWS
+ #include <io.h>
+@@ -56,7 +57,7 @@
+ #include <unistd.h>
+ #if DETECT_OS_APPLE
+ #define VK_LIBNAME "libvulkan.1.dylib"
+-#elif DETECT_OS_ANDROID
++#elif __ANDROID__
+ #define VK_LIBNAME "libvulkan.so"
+ #else
+ #define VK_LIBNAME "libvulkan.so.1"
+@@ -1500,22 +1501,9 @@ zink_flush_frontbuffer(struct pipe_screen *pscreen,
+    struct zink_resource *res = zink_resource(pres);
+    struct zink_context *ctx = zink_context(pctx);
+ 
+-   /* if the surface is no longer a swapchain, this is a no-op */
+-   if (!zink_is_swapchain(res))
+-      return;
++   struct sw_winsys *winsys = screen->winsys;
+ 
+    ctx = zink_tc_context_unwrap(pctx, screen->threaded);
+-
+-   if (!zink_kopper_acquired(res->obj->dt, res->obj->dt_idx)) {
+-      /* swapbuffers to an undefined surface: acquire and present garbage */
+-      zink_kopper_acquire(ctx, res, UINT64_MAX);
+-      ctx->needs_present = res;
+-      /* set batch usage to submit acquire semaphore */
+-      zink_batch_resource_usage_set(&ctx->batch, res, true, false);
+-      /* ensure the resource is set up to present garbage */
+-      ctx->base.flush_resource(&ctx->base, pres);
+-   }
+-
+    /* handle any outstanding acquire submits (not just from above) */
+    if (ctx->batch.swapchain || ctx->needs_present) {
+       ctx->batch.has_work = true;
+@@ -1525,10 +1513,25 @@ zink_flush_frontbuffer(struct pipe_screen *pscreen,
+          util_queue_fence_wait(&bs->flush_completed);
+       }
+    }
+-
+-   /* always verify that this was acquired */
+-   assert(zink_kopper_acquired(res->obj->dt, res->obj->dt_idx));
+-   zink_kopper_present_queue(screen, res);
++   if (!winsys)
++     return;
++   void *map = winsys->displaytarget_map(winsys, res->dt, 0);
++
++   if (map) {
++      struct pipe_transfer *transfer = NULL;
++      void *res_map = pipe_texture_map(pctx, pres, level, layer, PIPE_MAP_READ, 0, 0,
++                                        u_minify(pres->width0, level),
++                                        u_minify(pres->height0, level),
++                                        &transfer);
++      if (res_map) {
++         util_copy_rect((ubyte*)map, pres->format, res->dt_stride, 0, 0,
++                        transfer->box.width, transfer->box.height,
++                        (const ubyte*)res_map, transfer->stride, 0, 0);
++         pipe_texture_unmap(pctx, transfer);
++      }
++   winsys->displaytarget_unmap(winsys, res->dt);
++   }
++winsys->displaytarget_display(winsys, res->dt, winsys_drawable_handle, sub_box);
+ }
+ 
+ bool
+@@ -2611,6 +2614,7 @@ zink_create_screen(struct sw_winsys *winsys, const struct pipe_screen_config *co
+ {
+    struct zink_screen *ret = zink_internal_create_screen(config);
+    if (ret) {
++      ret->winsys = winsys;
+       ret->drm_fd = -1;
+    }
+ 
+diff --git a/src/gallium/drivers/zink/zink_types.h b/src/gallium/drivers/zink/zink_types.h
+index 7e1465f25fd..2df817920a5 100644
+--- a/src/gallium/drivers/zink/zink_types.h
++++ b/src/gallium/drivers/zink/zink_types.h
+@@ -995,6 +995,7 @@ struct zink_resource {
+    struct threaded_resource base;
+ 
+    enum pipe_format internal_format:16;
++   struct sw_displaytarget *dt;
+ 
+    struct zink_resource_object *obj;
+    union {
+@@ -1102,6 +1103,7 @@ struct zink_screen {
+    simple_mtx_t dt_lock;
+ 
+    bool device_lost;
++   struct sw_winsys *winsys;
+    int drm_fd;
+ 
+    struct hash_table framebuffer_cache;
+diff --git a/src/gallium/targets/dri/meson.build b/src/gallium/targets/dri/meson.build
+index d0a9b91b5a2..8f4250d2817 100644
+--- a/src/gallium/targets/dri/meson.build
++++ b/src/gallium/targets/dri/meson.build
+@@ -121,7 +121,7 @@ foreach d : [[with_gallium_kmsro, [
+   endif
+ endforeach
+ 
+-if meson.version().version_compare('>= 0.58')
++if meson.version().version_compare('>= 999')
+   # This only works on Unix-like oses, which is probably fine for dri
+   prog_ln = find_program('ln', required : false)
+   if prog_ln.found()
